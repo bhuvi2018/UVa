@@ -11,7 +11,6 @@ class Booklet
 		Scanner in= new Scanner(System.in);
 		double t=in.nextInt();
 		int sheet,last,i,j;
-		boolean f;
 		while(t!=0)
 		{
 			if(t==1)
