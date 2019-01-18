@@ -7,10 +7,10 @@ public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 int t= sc.nextInt();
 StringBuffer bf = new StringBuffer("");
-sc.nextLine();
+
 for (int i =0; i<t ; i++) {
  if (i>0) bf.append("\n");
- char [] a =sc.nextLine().toCharArray();
+ char [] a =sc.next().toCharArray();
  Arrays.sort(a);
  //String s =String.valueOf(a);
  Arrays.asList(a);
