@@ -27,7 +27,6 @@ class Main
 		while(t-->0)
 		{
 		    int n=in.nextInt(),j=0;
-		    int y=0;
 		    String s[]=new String[n];
 		    ArrayList<String>s2=new ArrayList<>();
 		    for(int i=0;i<n;i++)
