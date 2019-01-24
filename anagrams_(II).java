@@ -24,7 +24,7 @@ class Main
 		Scanner in=new Scanner(System.in);
 		int t=in.nextInt();
 		int m=t;
-		while(t-->0)
+		for(int ss=0;ss<t;ss++)
 		{
 		    int n=in.nextInt(),j=0;
 		    String s[]=new String[n];
@@ -38,7 +38,7 @@ class Main
 		    s2.add(s1);
 		    j++;
 		    }
-		    if(t!=(m-1))
+		    if(ss>0)
 		    System.out.println();
 		    int c=0;
 		    for(int i=0;i<j;i++)
