@@ -11,12 +11,14 @@ public class Main
 			long[] abc=new long[t];
 			for(int i=0;i<t;i++){
 				int[] a=new int[5];
-				for(int j=0;j<5;j++){
+				for(int j=0;j<5;j++)
+				{
 					a[j]=sc.nextInt();
 				}
 				Arrays.sort(a);
 				long c=0;
-				for(int j=0;j<5;j++){
+				for(int j=0;j<5;j++)
+				{
 					c=c*1000+a[j];
 				}
 				abc[i]=c;
@@ -26,14 +28,17 @@ public class Main
 			int count=1;
 			int maxcount=0;
 			int ans=0;
-			for(int i=1;i<t;i++){
+			for(int i=1;i<t;i++)
+			{
 				if(curr==abc[i])
 					count++;
-				else{
+				else
+				{
 					curr=abc[i];
 					if(maxcount==count)
 						ans+=count;
-					else if(maxcount<count){
+					else if(maxcount<count)
+					{
 						ans=count;
 						maxcount=count;
 					}
@@ -42,9 +47,8 @@ public class Main
 			}
 			if(maxcount==count)
 				ans+=count;
-			else if(maxcount<count){
+			else if(maxcount<count)
 				ans=count;
-			}
 			System.out.println(ans);
 		}
 	}
