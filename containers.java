@@ -17,7 +17,8 @@ class Main
             for(int i=0;i<s.length();i++)
             {
                 char temp=s.charAt(i);
-                for(int j=0;j<res;j++)
+		    int j=0;
+                for(j=0;j<res;j++)
                 {
                     if(a[j]>=temp)
                     {
