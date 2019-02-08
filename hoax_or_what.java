@@ -9,7 +9,7 @@ class Main {
 		
 		while (!(s=br.readLine()).equals("0")) {
 			int N=Integer.parseInt(s);
-			long cost=0; //wtf.
+			long cost=0;
 			TreeMap<Integer,Integer> map=new TreeMap<>();
 			for (int i=0;i<N;i++) {
 				StringTokenizer st=new StringTokenizer(br.readLine());
