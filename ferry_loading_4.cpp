@@ -15,7 +15,7 @@ int main()
     {
         int l, m;
         cin >> l >> m;
-        l *= 100;
+        l *= 100;//converting to centimeters
 
         vector<queue<int> > cars(2);
         for (int i = 0; i < m; ++i)
@@ -41,7 +41,7 @@ int main()
                 cars[index].pop();
             }
             ++tra;
-            index ^= 1;
+            index ^= 1;//XOR (diff input returns 1)
         }
         cout << tra << endl;
     }
