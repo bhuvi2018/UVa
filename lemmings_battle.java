@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main{
+class main{
     public static void main(String[] args) throws Exception {
        Scanner in=new Scanner(System.in);
         int TC = in.nextInt();
