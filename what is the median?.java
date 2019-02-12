@@ -12,13 +12,9 @@ class Main{
 	    		    a.add(s);
 	                Collections.sort(a);
 	                if(a.size()%2==0)
-	                {
 	                    System.out.println((a.get(a.size()/2-1)+a.get(a.size()/2))/2);
-	                    if(a.size()==0)
-	                    System.out.println(a.get(0));
-	                }
 	                else
-	                System.out.println(a.get(a.size()/2));
+	                	System.out.println(a.get(a.size()/2));
 	    		}
 	}
 }
