@@ -10,8 +10,6 @@ class Main{
 	    		{
 	    		    int s=in.nextInt();
 	    		    a.add(s);
-	            for(int i=0;i<1;i++)
-	            {
 	                Collections.sort(a);
 	                if(a.size()%2==0)
 	                {
@@ -21,7 +19,6 @@ class Main{
 	                }
 	                else
 	                System.out.println(a.get(a.size()/2));
-	            }
 	    		}
 	}
 }
