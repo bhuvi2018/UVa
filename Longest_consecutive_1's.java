@@ -10,7 +10,7 @@ class Main
 		while(t-->0)
 		{
 		    int n=in.nextInt();
-		    String s=Integer.toBinaryString(n);
+		    String s=Integer.toBinaryString(n);//binary conversion
 		    int c=0,max=0;
 		    for(int i=0;i<s.length();i++)
 		    {
