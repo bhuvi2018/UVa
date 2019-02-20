@@ -41,6 +41,7 @@ public class Main{
                     System.out.println("UNDETERMINED");
                 }
             }
+            if(t>0)
             System.out.println();
         }
     }
