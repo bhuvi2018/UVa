@@ -24,15 +24,15 @@ class Main
 	                for(int k=j+1;k<n;k++)
 	                {
 	                    for(int l=k+1;l<n;l++)
-                        {
+                            {
                             for(int m=l+1;m<n;m++)
 	                        {
 	                            for(int o=m+1;o<n;o++)
 	                                System.out.println(a[i]+" "+a[j]+" "+a[k]+" "+a[l]+" "+
 	                                        a[m]+" "+a[o]);
 	                        }
-                        }
-	                }
+			    }
+			}
 	            }
 	        }
 	        
